@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="BMI.css">
+        <title>BMI Calculator</title>
+    </head>
+<body>
+    <h1>Introduceti valorile pentru a afla rezultatele</h1>
+<div class="container">
+<form class="form">
+    <label><b>Introduceti numele</b></label>
+    <input class="input" type="text" name="user1" onkeydown="return /[a-z]/i.test(event.key)"><br>
+    <label><b>Introduceti anul nasterii</b></label>
+    <input class="input" type="number"><br>
+    <label><b>Introduceti inaltimea (in cm)</b></label>
+    <input class="input" type="number" name="height"><br>
+    <label><b>Introduceti greutatea</b></label>
+    <input class="input" type="number" name="weight"><br>
+    <button type="button" class="verify">Verifica</button>
+</form>
+</div>
+
+
+<p class="bmi"></p>
+<div class="container">
+<form class="form2">
+    <label><b>Introduceti numele</b></label>
+    <input class="input" type="text" name="user2"><br>
+    <label><b>Introduceti anul nasterii</b></label>
+    <input class="input" type="number"><br>
+    <label><b>Introduceti inaltimea (in cm)</b></label>
+    <input class="input" type="number" name="height2"><br>
+    <label><b>Introduceti greutatea</b></label>
+    <input class="input" type="number" name="weight2"><br>
+</form>
+
+<button type="button" class="verify2">Verifica</button>
+<p class="bmi2"></p>
+
+<button type="button" class="compare">Compara</button>
+<p class="compare"></p>
+
+<script type="text/javascript" src="bmi.js"></script>
+
+</div>
+
+</body>
+</html>
